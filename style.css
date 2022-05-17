@@ -1,0 +1,107 @@
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: serif;
+    font-size: 18px;
+    margin: auto;
+    max-width: 90%;
+    background: linear-gradient(30deg, rgba(34,195,57,1) 0%, rgba(253,187,45,1) 100%);
+    color: rgb(6, 2, 39);
+}
+.line {
+    background: gray;
+    display: flex;
+    justify-content: center;
+}
+.good{
+    text-transform: uppercase;
+    color: green;
+}
+.bad{
+    text-transform: uppercase;
+    color: red;
+}
+img {
+    width: 100%;
+}
+blockquote {
+    position: relative;
+    left: 60%;
+    bottom: 10px;
+    font-size: 160%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 140px;
+    -webkit-border-radius: 140px;
+    -ms-border-radius: 140px;
+    -moz-border-radius: 140px;
+    -o-border-radius: 140px;
+    background-color: rgb(82 76 37);
+    padding: 40px;
+    
+}
+h1, h2, h3, h4 {
+    font-size: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 18px;
+    font-family: none;
+    color: ivory;
+}
+q {
+    display: block;
+    word-break: break-word;
+    word-spacing: 3px;
+    font-size: 5vh;
+}
+table, th, td {
+    position: relative;
+    width: 1%;
+    border: 1px solid rgb(239, 222, 222);
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    border: 1px solid rgb(239, 222, 222);
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: rgb(177, 175, 175);
+}
+.type {
+    position: relative;
+    list-style: hangul;
+    word-spacing: 7px;
+}
+.pic {
+    width: 6%;
+    position: relative;
+    left: 40%;
+    bottom: 64px;
+    padding: 1%;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+.story {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+}
+mark {
+    background-color: blue;
+}
+.pp {
+    font-size: 5vh;
+    text-align: center;
+}
